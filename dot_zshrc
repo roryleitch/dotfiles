@@ -3,7 +3,6 @@ export FZF_BASE="/opt/homebrew/Cellar/fzf/"
 export FZF_DEFAULT_COMMAND="fzf"
 export EDITOR="fresh"
 export PATH="$HOME/bin:$PATH"
-export GITHUB_USERNAME="roryleitch"
 
 VSCODE=code
 
