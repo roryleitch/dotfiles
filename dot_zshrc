@@ -3,6 +3,7 @@ export FZF_BASE="/opt/homebrew/Cellar/fzf/"
 export FZF_DEFAULT_COMMAND="fzf"
 export EDITOR="fresh"
 export PATH="$HOME/bin:$PATH"
+export GITHUB_USERNAME="roryleitch"
 
 VSCODE=code
 
@@ -18,6 +19,7 @@ plugins=(
         zsh-interactive-cd
         starship
         fzf
+        1password
         )
 
 source $ZSH/oh-my-zsh.sh
