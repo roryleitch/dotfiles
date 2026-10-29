@@ -1,0 +1,32 @@
+export ZSH="$HOME/.oh-my-zsh"
+export FZF_BASE="/opt/homebrew/Cellar/fzf/"
+export FZF_DEFAULT_COMMAND="fzf"
+export EDITOR="fresh"
+export PATH="$HOME/bin:$PATH"
+
+VSCODE=code
+
+# Plugins
+plugins=(
+        git
+        vscode
+        aliases
+        common-aliases
+        mise
+        sudo
+        zsh-autosuggestions
+        zsh-interactive-cd
+        starship
+        fzf
+        )
+
+source $ZSH/oh-my-zsh.sh
+source <(fzf --zsh)
+
+# Aliases
+alias reload="reset; clear && source ~/.zshrc"
+alias e=$EDITOR
+alias config="chezmoi edit --apply"
+
+#Run HyFetch
+hyfetch
