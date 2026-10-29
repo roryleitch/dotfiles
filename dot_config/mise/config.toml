@@ -1,0 +1,3 @@
+[tools]
+java = "latest"
+usage = { version = "latest", workflow = "publish-cli.yml" }
