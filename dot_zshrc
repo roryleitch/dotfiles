@@ -26,7 +26,6 @@ source <(fzf --zsh)
 # Aliases
 alias reload="reset; clear && source ~/.zshrc"
 alias e=$EDITOR
-alias config="chezmoi edit --apply"
 
 #Run HyFetch
 hyfetch
