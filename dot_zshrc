@@ -26,5 +26,8 @@ source <(fzf --zsh)
 alias reload="clear && exec zsh"
 alias e=$EDITOR
 
+#Syntax Highlighting with zsh-patina
+eval "$(/opt/homebrew/opt/zsh-patina/bin/zsh-patina activate)"
+
 #Run HyFetch
 hyfetch
