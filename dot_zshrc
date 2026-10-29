@@ -16,8 +16,6 @@ plugins=(
         sudo
         zsh-interactive-cd
         starship
-        fzf
-        1password
         )
 
 source $ZSH/oh-my-zsh.sh
