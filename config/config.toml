@@ -1,0 +1,10 @@
+[tools]
+java = "lts"
+node = "lts"
+ruby = "latest"
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[dotfiles]
+"~/.config/mise" = { mode = "track" }
+"~/.zshrc" = { mode = "track" }
